@@ -10,7 +10,7 @@ RSpec.describe Plant, type: :model do
   end
 
   describe '#image' do
-    it 'returns the plant\'s last name' do
+    it 'returns the plant\'s image' do
       expect(plant.image).to eq('./images/aloe.jpg')
     end
   end
@@ -20,4 +20,6 @@ RSpec.describe Plant, type: :model do
       expect(plant.price).to eq(15.99)
     end
   end
+
+  # Add more examples here to test other methods and behavior of the Plant model
 end
